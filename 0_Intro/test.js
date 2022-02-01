@@ -1,3 +1,4 @@
 const name = "Bartosz"
+const age = 4;
 
-console.log(`hello ${name}`);
+console.log("Age: ", age);
