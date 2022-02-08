@@ -10,3 +10,5 @@ const falling = (name) =>console.log(`${name} is falling`);
 
 doingSomething(drinking, "Bart");
 doingSomething(falling, "Bart");
+
+const studyResult = doingSomething(name => name+"Is studying","Bart");
