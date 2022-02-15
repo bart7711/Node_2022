@@ -42,4 +42,6 @@ app.post("/opinion",(req,res)=>{
     }
 });
 
-app.listen(8080)
+app.listen(8080, ()=>{
+    console.log("Server is running")
+});
